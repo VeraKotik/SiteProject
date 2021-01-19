@@ -1,0 +1,100 @@
+.wrapper_social{
+
+ display: grid;
+height: 750px;
+background-color:#fff;
+ grid-template-columns: repeat(10, auto);
+ grid-template-rows: repeat(6, auto);
+
+
+ .profession{
+   color: #b3b3b3;
+}
+
+ h4{
+
+   color: #464646;
+    font-size: 24px;
+margin-left: 1.3em;
+margin-top: 1em;
+ }
+
+ .textintro{
+
+    grid-column: 5/7;
+    grid-row: 1/2;
+    justify-self: center;
+    .teamtexth1{
+
+        font-size: 34px;
+    }
+    .teamtextp{
+        color: #898888;
+        font-size: 16px;
+      margin-left: 10px;
+    }
+
+ }
+
+ .About_Mark{
+  
+    grid-column: 4/5;
+    grid-row: 4/5;
+
+    .ikon_tvitter{
+      margin-left:4em ;
+
+    }
+    .ikon_instagram{
+      margin-left: 3em;
+
+   }
+
+ }
+
+ .About_Justine{
+   
+   align-self: flex-end;
+    grid-column: 5/7;
+    justify-self: center;
+    grid-row: 3/4;
+
+    .profession{
+      
+      margin-left: 5em;
+     }
+ }
+
+ .About_Never{
+    grid-column: 8/9;
+    grid-row: 4/5;
+    .profession{
+      
+      margin-left: 3em;
+     }
+ }
+   .photo {
+        height: 190px;
+        width: 190px;
+        border-radius: 50%;
+        filter: gray;
+        -webkit-filter: grayscale(1); 
+
+    }
+    .photo:hover{
+        filter: none;
+        -webkit-filter: grayscale(0);
+        
+    }
+   .ikon_cosioseti{
+
+      margin-top: 2em;
+   }
+    .ikon_instagram{
+       margin-left: 4em;
+
+    }
+   .ikon_tvitter{
+   margin-left:4.5em ;
+   }
+}

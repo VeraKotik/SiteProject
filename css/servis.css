@@ -1,0 +1,58 @@
+/* service style start */
+.sreviceintro {
+  background-color: #000;
+  background: url(/img/service\ bacground.png) no-repeat center;
+  height: 1644px;
+  display: grid;
+  grid-template-columns: repeat(10, auto);
+  grid-template-rows: repeat(6, auto); }
+  .sreviceintro .button_visit {
+    grid-column: 5/7;
+    justify-self: center;
+    grid-row: 5/6;
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    background-color: white;
+    height: 64px;
+    width: 217px;
+    text-align: center; }
+    .sreviceintro .button_visit .buttonvisit {
+      color: black;
+      font-size: 1.5em; }
+  .sreviceintro p {
+    margin-top: 2em;
+    width: 230px;
+    color: #6c6c6c; }
+  .sreviceintro h4 {
+    font-size: 2em;
+    color: white;
+    margin-top: 1em; }
+  .sreviceintro .analytics {
+    grid-column: 4/5;
+    grid-row: 3/5; }
+  .sreviceintro .love {
+    grid-column: 5/7;
+    grid-row: 3/5;
+    justify-self: center; }
+    .sreviceintro .love .love_ikon {
+      margin-left: 1.5em; }
+  .sreviceintro .Cloud {
+    grid-column: 8/9;
+    grid-row: 3/5; }
+
+.provide_text {
+  grid-column: 5/7;
+  grid-row: 2/3;
+  justify-self: center; }
+  .provide_text .prividetexth3 {
+    font-size: 34px;
+    color: white; }
+  .provide_text .providetextp {
+    color: #6c6c6c;
+    margin-top: 0.5em;
+    width: 300px;
+    margin-left: 4em; }
+
+/* service style end */
+
+/*# sourceMappingURL=servis.css.map */

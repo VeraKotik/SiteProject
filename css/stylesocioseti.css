@@ -1,0 +1,58 @@
+.wrapper_social {
+  display: grid;
+  height: 750px;
+  background-color: #fff;
+  grid-template-columns: repeat(10, auto);
+  grid-template-rows: repeat(6, auto); }
+  .wrapper_social .profession {
+    color: #b3b3b3; }
+  .wrapper_social h4 {
+    color: #464646;
+    font-size: 24px;
+    margin-left: 1.3em;
+    margin-top: 1em; }
+  .wrapper_social .textintro {
+    grid-column: 5/7;
+    grid-row: 1/2;
+    justify-self: center; }
+    .wrapper_social .textintro .teamtexth1 {
+      font-size: 34px; }
+    .wrapper_social .textintro .teamtextp {
+      color: #898888;
+      font-size: 16px;
+      margin-left: 10px; }
+  .wrapper_social .About_Mark {
+    grid-column: 4/5;
+    grid-row: 4/5; }
+    .wrapper_social .About_Mark .ikon_tvitter {
+      margin-left: 4em; }
+    .wrapper_social .About_Mark .ikon_instagram {
+      margin-left: 3em; }
+  .wrapper_social .About_Justine {
+    -ms-flex-item-align: end;
+        align-self: flex-end;
+    grid-column: 5/7;
+    justify-self: center;
+    grid-row: 3/4; }
+    .wrapper_social .About_Justine .profession {
+      margin-left: 5em; }
+  .wrapper_social .About_Never {
+    grid-column: 8/9;
+    grid-row: 4/5; }
+    .wrapper_social .About_Never .profession {
+      margin-left: 3em; }
+  .wrapper_social .photo {
+    height: 190px;
+    width: 190px;
+    border-radius: 50%;
+    filter: gray;
+    -webkit-filter: grayscale(1); }
+  .wrapper_social .photo:hover {
+    filter: none;
+    -webkit-filter: grayscale(0); }
+  .wrapper_social .ikon_cosioseti {
+    margin-top: 2em; }
+  .wrapper_social .ikon_instagram {
+    margin-left: 4em; }
+  .wrapper_social .ikon_tvitter {
+    margin-left: 4.5em; }
